@@ -1,0 +1,52 @@
+[
+  {
+    "sku": "NGK-BR8ES",
+    "action": "start",
+    "timestamp": "2026-04-19T03:36:35.483Z"
+  },
+  {
+    "sku": "NGK-BR8ES",
+    "action": "stop",
+    "timestamp": "2026-04-19T03:36:36.857Z"
+  },
+  {
+    "sku": "NGK-BR8ES",
+    "action": "start",
+    "timestamp": "2026-04-19T03:36:37.689Z"
+  },
+  {
+    "sku": "NGK-BR8ES",
+    "action": "stop",
+    "timestamp": "2026-04-19T03:36:40.292Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "start",
+    "timestamp": "2026-04-19T03:37:29.080Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "stop",
+    "timestamp": "2026-04-19T03:37:30.687Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "start",
+    "timestamp": "2026-04-19T03:51:54.430Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "stop",
+    "timestamp": "2026-04-19T03:51:57.712Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "start",
+    "timestamp": "2026-04-19T03:52:00.448Z"
+  },
+  {
+    "sku": "OIL-4T-10W40",
+    "action": "stop",
+    "timestamp": "2026-04-19T03:52:07.093Z"
+  }
+]

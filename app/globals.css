@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-brand-navy: #1a2a3a;
+  --color-brand-orange: #C9A0DC;
+  --color-brand-slate: #334155;
+  /* High-Octane Industrial Palette */
+  --color-brand-black: #0f172a;
+  /* Deep night/oil black */
+  --color-brand-orange: #f97316;
+  /* Safety/Industrial orange */
+  --color-brand-steel: #64748b;
+  /* Tool-grade steel grey */
+  --color-brand-dark-grey: #1e293b;
+  /* Component grey */
+
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  /* Custom Animations for a "Playful" feel */
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+:root {
+  background-color: var(--color-brand-black);
+  color: white;
+}
