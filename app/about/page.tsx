@@ -11,50 +11,61 @@ export default function AboutPage() {
         {/* Hero Section */}
         <section className="border-b border-slate-800 pb-12 mb-12">
           <span className="text-orange-500 font-mono text-sm font-bold tracking-[0.3em] uppercase block mb-4">
-            MISSION_STATEMENT // VER 1.0
+            ESTABLISHED // BAKER, FL
           </span>
           <h1 className="text-6xl md:text-8xl font-black italic uppercase leading-[0.85] tracking-tighter mb-8">
-            WHERE CODE <br />
-            <span className="text-slate-500">MEETS THE BARN.</span>
+            MATT ST. PIERRE <br />
+            <span className="text-slate-500">THE SKI BARN.</span>
           </h1>
           <p className="text-xl text-slate-400 leading-relaxed max-w-2xl">
-            The Ski Barn isn't just an inventory app. It's a high-performance system built to handle the chaos of a 50-unit jet ski graveyard in Baker, Florida.
+            A lifetime of mechanical obsession brought from the Maine coast to the Florida Panhandle. We don't just part out skis; we salvage performance.
           </p>
         </section>
 
-        {/* The "Why" Grid */}
+        {/* The Founder Narrative */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
           <div className="space-y-4">
-            <h2 className="text-2xl font-black italic uppercase text-orange-500 underline decoration-2 underline-offset-8">THE DEVELOPER</h2>
+            <h2 className="text-2xl font-black italic uppercase text-orange-500 underline decoration-2 underline-offset-8">THE FOUNDER</h2>
             <p className="text-slate-400 leading-relaxed">
-              Built by **CodeLikeAGirl**, a developer and technical writer obsessed with turning messy real-world data into clean, industrial-grade software. This project serves as a live demonstration of Next.js 15, TypeScript, and Server Action logic.
+              **Matt St. Pierre** started turning wrenches in Brunswick, Maine, long before the first QR code hit a hull. He built The Ski Barn on the belief that "salvage" shouldn't mean "mystery." Every unit that enters our 50-unit graveyard in Baker is personally inspected and cataloged to ensure the Emerald Coast stays on the water.
             </p>
           </div>
           <div className="space-y-4">
-            <h2 className="text-2xl font-black italic uppercase text-orange-500 underline decoration-2 underline-offset-8">THE BACKSTORY</h2>
+            <h2 className="text-2xl font-black italic uppercase text-orange-500 underline decoration-2 underline-offset-8">THE OPERATION</h2>
             <p className="text-slate-400 leading-relaxed">
-              Working in a salvage barn means humidity, grease, and non-stop movement. Standard inventory software is too slow. The Ski Barn was engineered for one-tap labor logging and "at-a-glance" tech specs.
+              Located in Baker, Florida, the shop is a specialized service bay designed for one thing: precision teardowns. We focus on late-model Sea-Doo, Yamaha, and Kawasaki units. By combining traditional New England grit with modern tracking, Matt ensures that every component shipped out of the barn is a verified win for the customer.
             </p>
           </div>
         </div>
 
-        {/* Technical Capabilities List */}
+        {/* The Technical Edge */}
         <div className="bg-[#1e293b] p-10 border-l-8 border-orange-500">
-          <h3 className="text-sm font-black uppercase tracking-widest text-slate-500 mb-6 italic">Core Competencies</h3>
+          <h3 className="text-sm font-black uppercase tracking-widest text-slate-500 mb-6 italic">Shop Logistics & Tech</h3>
+          <p className="text-slate-400 mb-6 text-sm">
+            To support Matt's hands-on expertise, we've implemented a custom digital infrastructure built by **CodeLikeAGirl**. This allows for:
+          </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 font-mono text-sm">
-            <li className="flex items-center gap-3">
-              <span className="text-orange-500">▶</span> Next.js 15 App Router
+            <li className="flex items-center gap-3 text-slate-300">
+              <span className="text-orange-500">▶</span> 100% QR-Tracked Inventory
             </li>
-            <li className="flex items-center gap-3">
-              <span className="text-orange-500">▶</span> TypeScript Architecture
+            <li className="flex items-center gap-3 text-slate-300">
+              <span className="text-orange-500">▶</span> Real-Time "Ready-to-Ship" Logs
             </li>
-            <li className="flex items-center gap-3">
-              <span className="text-orange-500">▶</span> Technical Documentation
+            <li className="flex items-center gap-3 text-slate-300">
+              <span className="text-orange-500">▶</span> Precision Labor Clocking
             </li>
-            <li className="flex items-center gap-3">
-              <span className="text-orange-500">▶</span> Real-world Data Ingestion
+            <li className="flex items-center gap-3 text-slate-300">
+              <span className="text-orange-500">▶</span> Data-Backed Compression Specs
             </li>
           </ul>
+        </div>
+
+        {/* Call to Action */}
+        <div className="mt-20 text-center border-t border-slate-800 pt-12">
+          <p className="text-slate-500 uppercase font-bold tracking-widest text-xs mb-4 text-center">Ready to get back on the water?</p>
+          <Link href="/contact" className="text-orange-500 font-black italic text-4xl hover:text-white transition-colors uppercase tracking-tighter">
+            Message Us_
+          </Link>
         </div>
       </div>
     </main>
