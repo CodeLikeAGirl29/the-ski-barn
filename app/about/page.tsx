@@ -13,11 +13,11 @@ export default function AboutPage() {
           <span className="text-orange-500 font-mono text-sm font-bold tracking-[0.3em] uppercase block mb-4">
             ESTABLISHED // BAKER, FL
           </span>
-          <h1 className="text-6xl md:text-8xl font-black italic uppercase leading-[0.85] tracking-tighter mb-8">
-            MATT ST. PIERRE <br />
+          <h1 className="text-6xl md:text-6xl font-black italic uppercase leading-[0.85] tracking-tighter mb-8">
+            MATT STPIERRE <br />
             <span className="text-slate-500">THE SKI BARN.</span>
           </h1>
-          <p className="text-xl text-slate-400 leading-relaxed max-w-2xl">
+          <p className="text-lg text-slate-400 leading-relaxed max-w-2xl">
             A lifetime of mechanical obsession brought from the Maine coast to the Florida Panhandle. We don't just part out skis; we salvage performance.
           </p>
         </section>
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="space-y-4">
             <h2 className="text-2xl font-black italic uppercase text-orange-500 underline decoration-2 underline-offset-8">THE FOUNDER</h2>
             <p className="text-slate-400 leading-relaxed">
-              **Matt St. Pierre** started turning wrenches in Brunswick, Maine, long before the first QR code hit a hull. He built The Ski Barn on the belief that "salvage" shouldn't mean "mystery." Every unit that enters our 50-unit graveyard in Baker is personally inspected and cataloged to ensure the Emerald Coast stays on the water.
+              <strong>Matt StPierre</strong> started turning wrenches in Brunswick, Maine, long before the first QR code hit a hull. He built The Ski Barn on the belief that "salvage" shouldn't mean "mystery." Every unit that enters our 50-unit graveyard in Baker is personally inspected and cataloged to ensure the Emerald Coast stays on the water.
             </p>
           </div>
           <div className="space-y-4">
@@ -64,7 +64,7 @@ export default function AboutPage() {
         <div className="mt-20 text-center border-t border-slate-800 pt-12">
           <p className="text-slate-500 uppercase font-bold tracking-widest text-xs mb-4 text-center">Ready to get back on the water?</p>
           <Link href="/contact" className="text-orange-500 font-black italic text-4xl hover:text-white transition-colors uppercase tracking-tighter">
-            Message Us_
+            Message Us
           </Link>
         </div>
       </div>

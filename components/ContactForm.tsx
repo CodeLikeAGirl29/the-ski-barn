@@ -61,7 +61,7 @@ export default function ContactForm() {
               className="w-full p-4 rounded-xl bg-[#0f172a] border-2 border-slate-800 focus:border-orange-500 text-white outline-none transition-all font-mono appearance-none cursor-pointer"
               required
             >
-              <option value="" disabled selected>Select Category</option>
+              <option value="" disabled>Select Category</option>
               <option value="parts">Parts Request</option>
               <option value="repair">Service & Repair</option>
               <option value="buy_sell">Buying / Selling</option>
